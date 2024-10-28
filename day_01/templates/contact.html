@@ -1,14 +1,10 @@
-{% load static %}
+{% extends "layout.html" %}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact</title>
-    <link rel="stylesheet" href="{% static 'style.css' %}">
-</head>
-<body>
-    <h1>this  is my  conatct page</h1>
-</body>
-</html>
+
+{% block title %}
+conatct
+{% endblock %}
+
+{% block content %}
+<h1>This is my contact page</h1>
+{% endblock %}
